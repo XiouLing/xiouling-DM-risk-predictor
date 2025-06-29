@@ -40,7 +40,7 @@ user_question = st.text_input("輸入你的問題",key="user_question_input")
 if user_question:
     with st.spinner("AI 助理思考中..."):
         llm = Llama(
-            model_path = r"C:\Users\User\.lmstudio\models\NousResearch\Nous-Hermes-2-Mistral-7B-DPO-GGUF\Nous-Hermes-2-Mistral-7B-DPO.Q4_K_S.gguf",
+            model_path = r"C:\Users\User\Desktop\使用者互動平台\xiouling-DM-risk-predictor\Nous-Hermes-2-Mistral-7B-DPO.Q4_K_S.gguf",
             n_ctx=2048,
             n_threads=4,
             n_gpu_layers=0  # 若使用 GPU 可改為 >0
