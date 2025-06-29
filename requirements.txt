@@ -1,1 +1,6 @@
-
+pandas
+scikit-learn
+streamlit
+joblib
+transformers
+llama-cpp-python
