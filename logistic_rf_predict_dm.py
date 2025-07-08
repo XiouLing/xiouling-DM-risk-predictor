@@ -43,7 +43,7 @@ if user_question:
             model_path = r"C:\Users\User\Desktop\使用者互動平台\xiouling-DM-risk-predictor\Nous-Hermes-2-Mistral-7B-DPO.Q4_K_S.gguf",
             n_ctx=2048,
             n_threads=4,
-            n_gpu_layers=0  # 若使用 GPU 可改為 >0
+            n_gpu_layers=0 
         )
         prompt_template = """
         請根據以下數據回答問題：
